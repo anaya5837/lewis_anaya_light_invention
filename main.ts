@@ -5,7 +5,7 @@ while (true) {
         light.setBrightness(5)
     } else {
         light.setAll(light.rgb(250, 0, 0))
-        light.setBrightness(5)
+        light.setBrightness(1)
     }
     
 }
