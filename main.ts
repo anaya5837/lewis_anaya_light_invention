@@ -1,8 +1,8 @@
 while (true) {
     console.log("Light Level: " + input.lightLevel())
-    if (input.lightLevel() > 100) {
+    if (input.lightLevel() > 125) {
         light.clear
-    } else if (100 > input.lightLevel() && input.lightLevel() < 25) {
+    } else if (input.lightLevel() < 30) {
         light.setAll(light.rgb(250, 250, 250))
         light.setBrightness(5)
     }
