@@ -5,6 +5,8 @@ while (true) {
     } else if (input.lightLevel() <= 15) {
         light.setAll(light.rgb(250, 250, 250))
         light.setBrightness(5)
+    } else {
+        light.clear
     }
     
 }

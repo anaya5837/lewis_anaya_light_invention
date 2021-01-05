@@ -5,3 +5,5 @@ while True:
     elif input.light_level() <= 15:
         light.set_all(light.rgb(250, 250, 250))
         light.set_brightness(5)
+    else:
+        light.clear
