@@ -4,5 +4,5 @@ while True:
         light.set_all(light.rgb(250, 250, 250))
         light.set_brightness(5)
     else:
-        light.set_all(light.rgb(250, 0, 0))
+        light.clear
         light.set_brightness(5)
